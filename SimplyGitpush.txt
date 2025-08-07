@@ -1,0 +1,13 @@
+cd /path/to/your/local/gitupdate
+
+# Add your file (or make changes)
+cp /path/to/new_script.py .
+
+# Stage the file
+git add new_script.py
+
+# Commit
+git commit -m "Add new_script.py"
+
+# Push
+git push origin main
